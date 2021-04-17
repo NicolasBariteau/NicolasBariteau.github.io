@@ -625,3 +625,22 @@ h3
 	text-align: center;
 	font-family: 'MADE TOMMY Regular'
 }
+
+
+@font-face 
+{
+    font-family: 'MADE TOMMY Medium';
+    src: url('.fonts/MADE-TOMMY-Medium.ttf');
+}
+
+@font-face 
+{
+    font-family: 'MADE TOMMY Light';
+    src: url('.fonts/MADE-TOMMY-Light.ttf');
+}
+
+@font-face 
+{
+    font-family: 'MADE TOMMY Regular';
+    src: url('.fonts/MADE-TOMMY-Regular.ttf');
+}
