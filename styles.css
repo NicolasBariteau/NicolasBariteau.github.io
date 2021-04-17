@@ -2,19 +2,64 @@
 .logo {
 	width: 5em;
 }
+.petitlogo
+{
+	width: 2.5em;
+}
+
+.photobio
+{
+	width: 15%;
+	height: 15%;
+}
+
+.reaper
+{
+	color: #26CF1F;
+	font-family: 'MADE TOMMY Regular'
+}
+
+.audacity
+{
+	color: #4D17D0;
+	font-family: 'MADE TOMMY Regular'
+}
+
+.blender
+{
+	color: #E43F21;
+	font-family: 'MADE TOMMY Regular'
+}
+.lightroom
+{
+	color: #227ED3;
+	font-family: 'MADE TOMMY Regular'
+}
+
+.AE
+{
+	color: #421DDB;
+	font-family: 'MADE TOMMY Regular'
+}
+
+.titre_description
+{
+	font-size: 1.5em;
+	font-family: 'MADE TOMMY Medium'
+}
 
 header {
 	padding: 1rem;
 	
 }
 
-.titreportflio
-
+.titrecontact
 {
 	margin: auto;
 	display: flex;
-	margin-top: 5%;
-	width: 45em;
+	margin-top: 10%;
+	margin-bottom: 5%;
+	width: 15em;
 }
 
 .titre
@@ -38,13 +83,31 @@ header {
 {
 	
 border-radius: 100px;
-
 width: 191px;
 height: 191px;
 left: 1097px;
 top: 1087px;
 
-background: linear-gradient(96.43deg, #864AD1 5.15%, #3936CF 94.81%), #C4C4C4;
+background: linear-gradient(96.43deg, #864AD1 5.15%, #4351DE 94.81%), #C4C4C4;
+	background-size: 110%;
+	background-position: left;
+	transition: transform 0.3s, background-position 2s;
+	
+	
+}
+
+.cercle:hover
+{
+	background-position: right;
+	transform: scale(1.2);
+	transition:all is ease-in-out;
+}
+
+.cercle2:hover
+{
+	background-position: right;
+	transform: scale(1.2);
+	transition:all is ease-in-out;
 }
 
 .bullesAV
@@ -61,6 +124,8 @@ background: linear-gradient(96.43deg, #864AD1 5.15%, #3936CF 94.81%), #C4C4C4;
     margin-bottom: -2em;
    margin-left: -0.5em;
 }
+
+
 
 .bullesGPH
 {
@@ -87,7 +152,9 @@ left: 1097px;
 top: 1087px;
 
 background: linear-gradient(96.39deg, #E72C2C 6.2%, #EF4D29 93.13%);
-
+background-size: 110%;
+	background-position: left;
+	transition: transform 0.3s, background-position 2s;
 
 }
 
@@ -105,6 +172,32 @@ border-radius: 21px;
 margin-top: 93px;
 }
 
+
+/* Rectangle 7 */
+.bullesCV
+{
+width: 200px;
+height: 75px;
+left: 862px;
+top: 1543px;
+
+background: linear-gradient(96.39deg, #8F8F8F 6.2%, #2C2C2C 93.13%);
+border-radius: 37.5px;
+}
+
+.containerCV
+{
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.cvnom
+{
+	text-align: center;
+	margin-top: 12%;
+}
 
 
 
@@ -129,10 +222,87 @@ margin-top: 93px;
 	padding-left: 20%;
 
 }
-.AV_GRPHContain
+.AV_GRPHContain_vid
 {
 	width: 15rem;
+	transition: transform 0.1s;
+		
 }
+
+.AV_GRPHContain_audio
+{
+	width: 15rem;
+	transition: transform 0.1s;
+}
+
+.AV_GRPHContain_photo 
+{
+	width: 15rem;
+	transition: transform 0.1s;
+	
+}
+
+.AV_GRPHContain_vid:hover
+{
+	transform: scale(1.07);
+	transition:all is ease-in-out;
+		
+}
+
+.AV_GRPHContain_audio:hover
+{
+	transform: scale(1.07);
+	transition:all is ease-in-out;
+}
+
+.AV_GRPHContain_photo:hover 
+{
+	transform: scale(1.07);
+	transition:all is ease-in-out;
+
+}
+
+.AV_GRPHContain_motion
+{
+	width: 15rem;
+	transition: transform 0.1s;
+		
+}
+
+.AV_GRPHContain_3D
+{
+	width: 15rem;
+	transition: transform 0.1s;
+}
+
+.AV_GRPHContain_affiches
+{
+	width: 15rem;
+	transition: transform 0.1s;
+	
+}
+
+.AV_GRPHContain_motion:hover
+{
+	transform: scale(1.07);
+	transition:all is ease-in-out;
+		
+}
+
+.AV_GRPHContain_3D:hover
+{
+	transform: scale(1.07);
+	transition:all is ease-in-out;
+}
+
+.AV_GRPHContain_affiches:hover 
+{
+	transform: scale(1.07);
+	transition:all is ease-in-out;
+
+}
+
+
 
 /* Rectangle 9 */
 .rectangle_audio
@@ -240,13 +410,41 @@ border-radius: 25.5px;
 	padding-left: 10%;
 }
 
+.Bio_index
+{
+	display: flex;
+	margin-top: 7%;
+	
+	
+	justify-content: space-between;
+	align-content: space-between;
+	padding-right: 15%;
+	padding-left: 15%;
+}
+
 .pdroite
 {
 	margin-left: 5%;
+	margin-top: -0.3%;
+}
+.pphoto
+{
+	
+	margin-top: 5%;
+	margin-bottom: 5%;
+	
+	
+	justify-content: space-between;
+	align-content: space-between;
+	padding-right: 10%;
+	padding-left: 10%;
+	width: 80%;
+	
 }
 
 .pgauche
 {
+	margin-top: -0.3%;
 	margin-right: 5%;
 }
 
@@ -270,6 +468,8 @@ p
 {
 	width: 640px;
 	height: 427px;
+	border-radius: 7px;
+	box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, .2);
 	
 }
 .Photos_galerie
@@ -288,7 +488,8 @@ p
 {
 	width: 640px;
 	height: 360px;
-	
+	border-radius: 7px;
+	box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, .2);
 }
 .Modelgalery
 {
@@ -329,6 +530,8 @@ p
 {
 	width: 637px;
 	height: 900px;
+	border-radius: 7px;
+	box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, .2);
 }
 
 .Model_tresor
@@ -336,11 +539,15 @@ p
 	width: 640px;
 	height: 360px;
 	margin-top: -35.75%;
+	border-radius: 7px;
+	box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, .2);
 }
 .Model_ciel
 {
 	width: 1515px;
 	height: 910px;
+	border-radius: 7px;
+	box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, .2);
 }
 .Affiche_galerie
 {
@@ -356,6 +563,8 @@ p
 .affiche
 {
 	width: 70%;
+	border-radius: 7px;
+	box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, .2);
 }
 
 @media (max-widht : 1200px)
@@ -369,23 +578,39 @@ nav {
     display: block;
 	margin-top: -3.5rem;
 	text-align: center;
+	
 }
 
 nav a {
 font-size: 1.3rem;
-color: black;
+color: grey;
 padding: 5rem;
 list-style: none;
 text-decoration: none;
+	transition: color 0.2s;
 }
 
 a
 {
 	font-family: 'MADE TOMMY Light';
 	text-decoration: none;
+	
 }
 
+nav a:hover {
+  color: black ;
+  transform: scale(1.4);
 
+}
+
+}
+
+.mail
+{
+	font-color: black;
+	text-decoration: none;
+	color: inherit;
+}
 
 h2 {
 	color: white;
@@ -395,3 +620,8 @@ h2 {
 	font-family: 'MADE TOMMY Regular'
 }
 
+h3
+{
+	text-align: center;
+	font-family: 'MADE TOMMY Regular'
+}
