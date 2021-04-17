@@ -16,36 +16,36 @@
 .reaper
 {
 	color: #26CF1F;
-	font-family: 'raleway'
+	font-family: raleway;
 }
 
 .audacity
 {
 	color: #4D17D0;
-	font-family: 'raleway'
+	font-family: raleway;
 }
 
 .blender
 {
 	color: #E43F21;
-	font-family: 'raleway'
+	font-family: raleway;
 }
 .lightroom
 {
 	color: #227ED3;
-	font-family: 'raleway'
+	font-family: raleway;
 }
 
 .AE
 {
 	color: #421DDB;
-	font-family: 'raleway'
+	font-family: raleway;
 }
 
 .titre_description
 {
 	font-size: 1.5em;
-	font-family: 'raleway'
+	font-family: raleway;
 }
 
 header {
@@ -450,7 +450,7 @@ border-radius: 25.5px;
 
 p 
 {
-	font-family: "raleway";
+	font-family: raleway;
 	font-size: 1.2rem;
 	text-align: justify;
 	width: 180%;
@@ -592,7 +592,7 @@ text-decoration: none;
 
 a
 {
-	font-family: 'raleway';
+	font-family: raleway;
 	text-decoration: none;
 	
 }
@@ -617,13 +617,13 @@ h2 {
 	text-align: center;
 	margin-top: 80px;
 	margin-bottom: 80px;
-	font-family: 'raleway'
+	font-family: raleway;
 }
 
 h3
 {
 	text-align: center;
-	font-family: 'raleway'
+	font-family: raleway;
 }
 
 
