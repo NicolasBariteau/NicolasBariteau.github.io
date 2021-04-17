@@ -4,11 +4,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Photographies - Nicolas Bariteau Portfolio</title>
   <link rel="stylesheet" href="styles.css">
   <style type="text/css">
 
   </style>
+	<link rel="icon" type="image/svg" href="img/Logo site.svg" />
 </head>
 	
 	
@@ -16,9 +17,9 @@
   <a href="index.html" ><img src="./img/Bouton site.svg" alt="" class="logo"></img>
 	</a>
 	<nav>
-    <a href="#">Projets</a>
+    <a href="index.html#Projets">Projets</a>
     <a href="CV Nicolas Bariteau.pdf">CV</a>
-    <a href="#">Contact</a>
+    <a href="index.html#Contact">Contact</a>
   </nav>
 		
 </header>
@@ -40,10 +41,21 @@
 
 <div class="Photos_galerie">
 <a href="img/Portrait noir et blanc.png"><img src="img/Portrait noir et blanc.png" class="Photos"></a> <a href="img/Oiseau rocher ETLNG.jpg"><img src="img/Oiseau rocher ETLNG.jpg" class="Photos"></a> </div>
-<div class="Photos_galerie">
-<a href="img/Abeille qui vole.png"><img src="img/Abeille qui vole.png" class="Photos"></a> </div>
+<div class="video_audios">
+<a href="img/Abeille qui vole.png"><img src="img/Abeille qui vole.png" class="Photos"></a> <a href="img/Abeille Fleur - CopieETLNG.png"><img src="img/Abeille Fleur - CopieETLNG.png" class="Photos"></a></div>
 
 
+<p class="pphoto">
+	
+<img src="img/Photogrpahie logo.svg" class="petitlogo">
+	<img src="img/Lightroom logo.svg" class="petitlogo">
+	
+<br>
 
-
+	<span class="lightroom">Canon EOS 2000D + Lightroom</span>
+<br>
+	<br>
+	
+  Depuis près d'un an je m'intéresse à la photographie ainsi qu'à son étalonnage en post-production.</p>
+	
 </body>
