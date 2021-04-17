@@ -4,11 +4,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Motion Design - Nicolas Bariteau Portfolio</title>
   <link rel="stylesheet" href="styles.css">
   <style type="text/css">
 
   </style>
+<link rel="icon" type="image/svg" href="img/Logo site.svg" />
 </head>
 	
 	
@@ -16,9 +17,9 @@
   <a href="index.html" ><img src="./img/Bouton site.svg" alt="" class="logo"></img>
 	</a>
 	<nav>
-    <a href="#">Projets</a>
+    <a href="index.html#Projets">Projets</a>
     <a href="CV Nicolas Bariteau.pdf">CV</a>
-    <a href="#">Contact</a>
+    <a href="index.html#Contact">Contact</a>
     </nav>
 		
 </header>
@@ -31,7 +32,19 @@
 
 <iframe width="3000px" height="425px" src="https://www.youtube.com/embed/P3jOW-Q0HPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	
-<p class="pdroite"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed ultrices lectus, ac vestibulum nisl. Donec elementum laoreet tempus. In maximus accumsan pulvinar. Suspendisse vitae facilisis ex. Aliquam consequat tortor ac eros bibendum, quis auctor ligula varius. Donec ac orci vitae lacus egestas auctor ac vel arcu. Vestibulum molestie ante at lectus tincidunt feugiat. Sed vitae bibendum eros. Quisque non nisi turpis. Nulla facilisi. Donec elementum sapien justo, at porta justo luctus nec. Aenean dictum lacinia nibh, et fringilla purus scelerisque vitae. Morbi eu diam maximus urna pretium dapibu50 onvallis congue nisl. Integer vestibulum tellus non nisl sodales hendreri</p>
+<p class="pdroite"> 
+	<img src="img/After Effects logo.svg" class="petitlogo">
+<br>
+
+	<span class="AE">After Effects</span>
+<br>
+	<br>
+	<span class="titre_description">L'affaire de Cambridge Analytica résumé en 1 minute</span>
+	<br>
+	<br>
+	En 2020 lors d'un cours en motion design, j'ai pu réaliser une courte vidéo d'une minute en utilisant les techniques enseignées avec le logiciel <strong>After Effects</strong> pour en faire un rendu sur le thème des données.<br>
+  <br>
+  Pour ma part, j'ai traité du scandale de Cambridge Analytica durant les élections américaines de 2016.</p>
 	
 
 </div>
