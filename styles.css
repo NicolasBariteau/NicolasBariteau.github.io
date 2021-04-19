@@ -95,52 +95,8 @@ background: linear-gradient(96.43deg, #864AD1 5.15%, #4351DE 94.81%), #C4C4C4;
 	
 	
 }
+	
 
-.cercle:hover
-{
-	background-position: right;
-	transform: scale(1.2);
-	transition:all is ease-in-out;
-}
-
-.cercle2:hover
-{
-	background-position: right;
-	transform: scale(1.2);
-	transition:all is ease-in-out;
-}
-
-.bullesAV
-{
-	display: inline-block;     
-   position: relative;    
-   z-index: 1;     
-   padding-top: 2em;
-    padding-right: 2em;
-    padding-bottom: 3em;
-    padding-left: 2em;   
-   margin-top: -2em;
-    margin-right: -2em;
-    margin-bottom: -2em;
-   margin-left: -1em;
-}
-
-
-
-.bullesGPH
-{
-	display: inline-block;     
-   position: relative;    
-   z-index: 1;     
-   padding-top: 2em;
-    padding-right: 2em;
-    padding-bottom: 3em;
-    padding-left: 2em;   
-   margin-top: -2em;
-    margin-right: -2em;
-    margin-bottom: -2em;
-    margin-left: -0.7em;
-}
 /* Ellipse 3 */
 .cercle2 {
 
@@ -620,6 +576,54 @@ h3
 	font-family: 'Montserrat', sans-serif;
 }
 
+}
+.cercle:hover
+{
+	background-position: right;
+	transform: scale(1.2);
+	transition:all is ease-in-out;
+}
+
+.cercle2:hover
+{
+	background-position: right;
+	transform: scale(1.2);
+	transition:all is ease-in-out;
+}
+
+.bullesAV
+{
+	display: inline-block;     
+   position: relative;    
+   z-index: 1;     
+   padding-top: 2em;
+    padding-right: 2em;
+    padding-bottom: 3em;
+    padding-left: 2em;   
+   margin-top: -2em;
+    margin-right: -2em;
+    margin-bottom: -2em;
+   margin-left: -1em;
+}
+
+
+
+.bullesGPH
+{
+	display: inline-block;     
+   position: relative;    
+   z-index: 1;     
+   padding-top: 2em;
+    padding-right: 2em;
+    padding-bottom: 3em;
+    padding-left: 2em;   
+   margin-top: -2em;
+    margin-right: -2em;
+    margin-bottom: -2em;
+    margin-left: -0.7em;
+}
+
+
 @media(min-width: 768px) and (max-width: 1388px)
 {
     .titre
@@ -643,9 +647,10 @@ h3
 	}
 .Model_chien
 	{
-		width: 318px;
-		height: 450px;
+		width: 477px;
+		height: 675px;
 	}
+	
 .Model_ciel
 	{
 		width: 1084px;
@@ -671,6 +676,13 @@ h3
 	{
 		display: block;
 	}
+	
+	.containerAV_GRPH
+	{
+	padding-right: 5%;
+	padding-left: 5%;
+	
+	}
 	.Modelgalery
 	{
 		margin-left: -10%;
@@ -685,6 +697,3 @@ h3
 	{
 		width: 150px;
 	}
-}
-
-
