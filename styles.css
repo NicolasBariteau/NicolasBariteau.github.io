@@ -16,36 +16,36 @@
 .reaper
 {
 	color: #26CF1F;
-	font-family: raleway;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .audacity
 {
 	color: #4D17D0;
-	font-family: raleway;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .blender
 {
 	color: #E43F21;
-	font-family: raleway;
+	font-family: 'Montserrat', sans-serif;
 }
 .lightroom
 {
 	color: #227ED3;
-	font-family: raleway;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .AE
 {
 	color: #421DDB;
-	font-family: raleway;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .titre_description
 {
 	font-size: 1.5em;
-	font-family: raleway;
+	font-family: 'Montserrat', sans-serif;
 }
 
 header {
@@ -122,7 +122,7 @@ background: linear-gradient(96.43deg, #864AD1 5.15%, #4351DE 94.81%), #C4C4C4;
    margin-top: -2em;
     margin-right: -2em;
     margin-bottom: -2em;
-   margin-left: -0.5em;
+   margin-left: -1em;
 }
 
 
@@ -139,7 +139,7 @@ background: linear-gradient(96.43deg, #864AD1 5.15%, #4351DE 94.81%), #C4C4C4;
    margin-top: -2em;
     margin-right: -2em;
     margin-bottom: -2em;
-    margin-left: -0.3em;
+    margin-left: -0.7em;
 }
 /* Ellipse 3 */
 .cercle2 {
@@ -450,7 +450,7 @@ border-radius: 25.5px;
 
 p 
 {
-	font-family: raleway;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 1.2rem;
 	text-align: justify;
 	width: 180%;
@@ -592,7 +592,7 @@ text-decoration: none;
 
 a
 {
-	font-family: raleway;
+	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
 	
 }
@@ -617,30 +617,14 @@ h2 {
 	text-align: center;
 	margin-top: 80px;
 	margin-bottom: 80px;
-	font-family: raleway;
+	font-family: 'Montserrat', sans-serif;
 }
 
 h3
 {
 	text-align: center;
-	font-family: raleway;
+	font-family: 'Montserrat', sans-serif;
 }
 
 
-@font-face 
-{
-    font-family: 'MADE TOMMY Medium';
-    src: url('.fonts/MADE-TOMMY-Medium.ttf');
-}
 
-@font-face 
-{
-    font-family: 'MADE TOMMY Light';
-    src: url('.fonts/MADE-TOMMY-Light.ttf');
-}
-
-@font-face 
-{
-    font-family: 'MADE TOMMY Regular';
-    src: url('.fonts/MADE-TOMMY-Regular.ttf');
-}
