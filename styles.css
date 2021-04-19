@@ -1,4 +1,6 @@
 
+
+
 .logo {
 	width: 5em;
 }
@@ -6,6 +8,7 @@
 {
 	width: 2.5em;
 }
+
 
 .photobio
 {
@@ -70,6 +73,21 @@ header {
 	width: 45em;
 }
 
+@media(min-width: 768px) and (max-width: 1388px)
+{
+    .titre
+	{
+	 width :41%;	
+	}
+}
+@media(max-width: 767px)
+{	
+	  .titre
+	{
+	 width :60%;	
+	}
+}
+
 .titre_affiches
 {
 	margin: auto;
@@ -114,6 +132,52 @@ background-size: 110%;
 
 }
 
+.cercle:hover
+{
+	background-position: right;
+	transform: scale(1.2);
+	transition:all is ease-in-out;
+}
+
+.cercle2:hover
+{
+	background-position: right;
+	transform: scale(1.2);
+	transition:all is ease-in-out;
+}
+
+.bullesAV
+{
+	display: inline-block;     
+   position: relative;    
+   z-index: 1;     
+   padding-top: 2em;
+    padding-right: 2em;
+    padding-bottom: 3em;
+    padding-left: 2em;   
+   margin-top: -2em;
+    margin-right: -2em;
+    margin-bottom: -2em;
+   margin-left: -1em;
+}
+
+
+
+.bullesGPH
+{
+	display: inline-block;     
+   position: relative;    
+   z-index: 1;     
+   padding-top: 2em;
+    padding-right: 2em;
+    padding-bottom: 3em;
+    padding-left: 2em;   
+   margin-top: -2em;
+    margin-right: -2em;
+    margin-bottom: -2em;
+    margin-left: -0.7em;
+}
+
 
 .barre
 {
@@ -128,6 +192,21 @@ border-radius: 21px;
 margin-top: 93px;
 }
 
+@media(min-width: 768px) and (max-width: 1388px)
+{ 
+	.barre
+	{
+		width: 20%;
+	}
+}
+
+@media(max-width: 1305px)
+{
+ 	.barre
+	{
+		width: 0%;
+	}
+}
 
 /* Rectangle 7 */
 .bullesCV
@@ -178,6 +257,15 @@ border-radius: 37.5px;
 	padding-left: 20%;
 
 }
+@media(min-width: 768px) and (max-width: 1388px)
+{
+	.containerAV_GRPH
+	{
+		padding-right: 10%;
+	padding-left: 10%;
+	}
+}
+
 .AV_GRPHContain_vid
 {
 	width: 15rem;
@@ -428,6 +516,16 @@ p
 	box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, .2);
 	
 }
+
+@media(min-width: 768px) and (max-width: 1388px)
+{
+
+.Photos
+	{
+		width: 427px;
+		height: 285px;
+		
+	}
 .Photos_galerie
 {
 	display: flex;
@@ -505,6 +603,27 @@ p
 	border-radius: 7px;
 	box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, .2);
 }
+
+.Model
+	{
+		width: 426px;
+		height: 240px;
+		
+	}
+.Model_chien
+	{
+		width: 477px;
+		height: 675px;
+	}
+	
+.Model_ciel
+	{
+		width: 1040px;
+		height: 596px;
+	}
+
+}
+
 .Affiche_galerie
 {
 	display: flex;
@@ -553,7 +672,6 @@ nav a:hover {
 
 }
 
-}
 
 .mail
 {
@@ -575,125 +693,3 @@ h3
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
 }
-
-}
-.cercle:hover
-{
-	background-position: right;
-	transform: scale(1.2);
-	transition:all is ease-in-out;
-}
-
-.cercle2:hover
-{
-	background-position: right;
-	transform: scale(1.2);
-	transition:all is ease-in-out;
-}
-
-.bullesAV
-{
-	display: inline-block;     
-   position: relative;    
-   z-index: 1;     
-   padding-top: 2em;
-    padding-right: 2em;
-    padding-bottom: 3em;
-    padding-left: 2em;   
-   margin-top: -2em;
-    margin-right: -2em;
-    margin-bottom: -2em;
-   margin-left: -1em;
-}
-
-
-
-.bullesGPH
-{
-	display: inline-block;     
-   position: relative;    
-   z-index: 1;     
-   padding-top: 2em;
-    padding-right: 2em;
-    padding-bottom: 3em;
-    padding-left: 2em;   
-   margin-top: -2em;
-    margin-right: -2em;
-    margin-bottom: -2em;
-    margin-left: -0.7em;
-}
-
-
-@media(min-width: 768px) and (max-width: 1388px)
-{
-    .titre
-	{
-	 width :41%;	
-	}
-	.barre
-	{
-		width: 20%;
-	}
-	.Modelgalery
-	{
-		
-	}
-
-.Model
-	{
-		width: 426px;
-		height: 240px;
-		
-	}
-.Model_chien
-	{
-		width: 477px;
-		height: 675px;
-	}
-	
-.Model_ciel
-	{
-		width: 1040px;
-		height: 596px;
-	}
-
-
-@media(max-width: 767px)
-{	
-	  .titre
-	{
-	 width :60%;	
-	}
-	.barre
-	{
-		width: 0%;
-	}
-	.container
-	{
-		display: block;
-	}
-	.nav 
-	{
-		display: block;
-	}
-	
-	.containerAV_GRPH
-	{
-	padding-right: 5%;
-	padding-left: 5%;
-	
-	}
-	.Modelgalery
-	{
-		margin-left: -10%;
-		margin-right: 10%;
-		display: block;
-	}
-	.Model
-	{
-		width: 150px;
-	}
-	.Model_chien
-	{
-		width: 150px;
-	}
