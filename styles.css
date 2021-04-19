@@ -73,9 +73,19 @@ header {
 	width: 45em;
 }
 
+
+
+.titre_affiches
+{
+	margin: auto;
+	display: flex;
+	margin-top: 2%;
+	width: 35em;
+}
+
 @media(min-width: 768px) and (max-width: 1388px)
 {
-    .titre
+    .titre, .titre_affiches
 	{
 	 width :41%;	
 	}
@@ -88,14 +98,20 @@ header {
 	}
 }
 
-.titre_affiches
+@media(min-width: 768px) and (max-width: 1388px)
 {
-	margin: auto;
-	display: flex;
-	margin-top: 2%;
-	width: 35em;
+    .titre_affiches
+	{
+	 width :31%;	
+	}
 }
-
+@media(max-width: 767px)
+{	
+	  .titre
+	{
+	 width :60%;	
+	}
+}
 /* Ellipse 2 */
 .cercle
 {
