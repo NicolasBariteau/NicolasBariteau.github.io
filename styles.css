@@ -82,13 +82,7 @@ header {
 	width: 35em;
 }
 
-@media(min-width: 768px) and (max-width: 1388px)
-{
-    .titre, .titre_affiches
-	{
-	 width :41%;	
-	}
-}
+
 @media(max-width: 767px)
 {	
 	  .titre
@@ -520,7 +514,6 @@ p
 	width: 5%;
 	position: absolute;
 	right: 100
-	top: 1230px;
 }
 
 .Photos
@@ -604,7 +597,6 @@ p
 	align-content: space-between;
 	padding-right: 10%;
 	padding-left: 10%;
-	margin-top: 5%;
 }
 
 .Model_chien
@@ -648,8 +640,6 @@ p
 		width: 1040px;
 		height: 596px;
 	}
-
-}
 
 .Affiche_galerie
 {
