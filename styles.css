@@ -74,7 +74,6 @@ header {
 }
 
 
-
 .titre_affiches
 {
 	margin: auto;
@@ -532,6 +531,17 @@ p
 	box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, .2);
 	
 }
+.Photos_galerie
+{
+	display: flex;
+	margin-top: 5%;
+	
+	
+	justify-content: space-between;
+	align-content: space-between;
+	padding-right: 10%;
+	padding-left: 10%;
+}
 
 @media(min-width: 768px) and (max-width: 1388px)
 {
@@ -552,6 +562,7 @@ p
 	align-content: space-between;
 	padding-right: 10%;
 	padding-left: 10%;
+}
 }
 
 .Model
