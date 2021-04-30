@@ -1,6 +1,4 @@
 
-
-
 .logo {
 	width: 5em;
 }
@@ -44,12 +42,17 @@
 	color: #421DDB;
 	font-family: 'Montserrat', sans-serif;
 }
-
+.illustrator
+{
+	color: #EDBF1D;
+	font-family: 'Montserrat', sans-serif;
+}
 .titre_description
 {
 	font-size: 1.5em;
 	font-family: 'Montserrat', sans-serif;
 }
+
 
 header {
 	padding: 1rem;
@@ -82,6 +85,13 @@ header {
 	width: 35em;
 }
 
+.titre_logos
+{
+	margin: auto;
+	display: flex;
+	margin-top: 2%;
+	width: 25em;
+}
 
 @media(max-width: 767px)
 {	
@@ -94,6 +104,13 @@ header {
 @media(min-width: 768px) and (max-width: 1388px)
 {
     .titre_affiches
+	{
+	 width :31%;	
+	}
+}
+@media(min-width: 768px) and (max-width: 1388px)
+{
+    .titre_logos
 	{
 	 width :31%;	
 	}
@@ -229,6 +246,17 @@ background: linear-gradient(96.39deg, #8F8F8F 6.2%, #2C2C2C 93.13%);
 border-radius: 37.5px;
 }
 
+.bullesHyscom
+{
+width: 450px;
+height: 70px;
+left: 862px;
+top: 1543px;
+
+background: linear-gradient(96.39deg, #208af7 6.2%, #043f86 93.13%);
+border-radius: 37.5px;
+}
+
 .containerCV
 {
 	height: 200px;
@@ -243,7 +271,11 @@ border-radius: 37.5px;
 	margin-top: 12%;
 }
 
-
+.hyscomnom
+{
+	text-align: center;
+	margin-top: 5%;
+}
 
 .container
 {
@@ -662,7 +694,10 @@ p
 	border-radius: 7px;
 	box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, .2);
 }
-
+.log
+{
+	width: 70%;
+}
 
 nav {
     display: block;
