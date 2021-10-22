@@ -16,6 +16,7 @@
 	width: 35%;
 	height: 15%;
 	border-radius: 100%;
+	box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, .3);
 }
 
 .reaper
@@ -704,13 +705,13 @@ p
 {
 	width: 70%;
 	border-radius: 7px;
-	box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, .2);
+	box-shadow: 0px 0px 45px 7px rgba(0, 0, 0, .3);
 }
 .affichesolo
 {
 	width: 130%;
 	border-radius: 7px;
-	box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, .2);
+	box-shadow: 0px 0px 45px 7px rgba(0, 0, 0, .3);
 	margin-left: 5%;
 }
 
