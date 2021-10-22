@@ -1,4 +1,6 @@
 
+
+
 .logo {
 	width: 5em;
 }
@@ -10,8 +12,9 @@
 
 .photobio
 {
-	width: 15%;
+	width: 17%;
 	height: 15%;
+	border-radius: 100%;
 }
 
 .reaper
@@ -498,7 +501,8 @@ border-radius: 25.5px;
 .Bio_index
 {
 	display: flex;
-	margin-top: 7%;
+	margin-top: 10%;
+	margin-bottom: -2%;
 	
 	
 	justify-content: space-between;
@@ -512,6 +516,13 @@ border-radius: 25.5px;
 	margin-left: 5%;
 	margin-top: -0.3%;
 }
+
+.pdroiteaffiche
+{
+	margin-left: 20%;
+	margin-top: 14%;
+}
+
 .pphoto
 {
 	
@@ -694,6 +705,14 @@ p
 	border-radius: 7px;
 	box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, .2);
 }
+.affichesolo
+{
+	width: 130%;
+	border-radius: 7px;
+	box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, .2);
+	margin-left: 5%;
+}
+
 .log
 {
 	width: 70%;
