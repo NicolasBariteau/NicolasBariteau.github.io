@@ -587,6 +587,14 @@ p
 	border-radius: 7px;
 	box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, .2);
 	
+	
+}
+.Photoscarre
+{
+	width: 640px;
+	height: 640px;
+	border-radius: 7px;
+	box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, .2);
 }
 .Photos_galerie
 {
@@ -662,15 +670,6 @@ p
 	padding-right: 10%;
 	padding-left: 10%;
 }
-.Modelgalery_4
-{
-	display: flex;
-	margin-top: -3%;
-	
-	justify-content: space-between;
-	align-content: space-between;
-	padding-right: 10%;
-	padding-left: 10%; }
 
 .Model_chien
 {
@@ -703,18 +702,7 @@ p
 	height: 640px;
 	border-radius: 7px;
 	box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, .2);
-
 }
-
-.Model_robot
-{
-	
-	width: 640px;
-	height: 480px;
-	border-radius: 7px;
-	box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, .2);
-	}
-	
 @media(min-width: 768px) and (max-width: 1388px)
 {
 	
@@ -743,12 +731,6 @@ p
 	
 	width: 475px;
 	height: 475px;
-	}
-.Model_robot
-{
-	
-	width: 426px;
-	height: 304px;
 	}
 }
 .Affiche_galerie
