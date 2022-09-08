@@ -175,7 +175,7 @@ height: 191px;
 left: 1097px;
 top: 1087px;
 
-background: linear-gradient(96.39deg, #E72C2C 6.2%, #EF4D29 93.13%);
+background: linear-gradient(96.39deg, #FA0300 6.2%, #FFBC0D 93.13%);
 background-size: 110%;
 	background-position: left;
 	transition: transform 0.3s, background-position 2s;
@@ -278,6 +278,18 @@ left: 862px;
 top: 1543px;
 
 background: linear-gradient(96.39deg, #208af7 6.2%, #043f86 93.13%);
+border-radius: 37.5px;
+}
+
+.bullesPhare
+{
+width: 450px;
+height: 70px;
+left: 862px;
+top: 1543px;
+
+background: linear-gradient(96.39deg, #FA0300 6.2%, #FFBC0D 93.13%);
+	
 border-radius: 37.5px;
 }
 
@@ -587,8 +599,8 @@ p
 	border-radius: 7px;
 	box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, .2);
 	
-	
 }
+
 .Photoscarre
 {
 	width: 640px;
@@ -670,6 +682,15 @@ p
 	padding-right: 10%;
 	padding-left: 10%;
 }
+.Modelgalery_4
+{
+	display: flex;
+	margin-top: -3%;
+	
+	justify-content: space-between;
+	align-content: space-between;
+	padding-right: 10%;
+	padding-left: 10%; }
 
 .Model_chien
 {
@@ -702,7 +723,18 @@ p
 	height: 640px;
 	border-radius: 7px;
 	box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, .2);
+
 }
+
+.Model_robot
+{
+	
+	width: 640px;
+	height: 480px;
+	border-radius: 7px;
+	box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, .2);
+	}
+	
 @media(min-width: 768px) and (max-width: 1388px)
 {
 	
@@ -731,6 +763,12 @@ p
 	
 	width: 475px;
 	height: 475px;
+	}
+.Model_robot
+{
+	
+	width: 426px;
+	height: 304px;
 	}
 }
 .Affiche_galerie
