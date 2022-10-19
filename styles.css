@@ -2,7 +2,7 @@
 
 
 .logo {
-	width: 5em;
+	width: 4em;
 }
 .petitlogo
 {
@@ -315,7 +315,7 @@ border-radius: 37.5px;
 
 .container
 {
-	margin-top: 10%;
+	margin-top: 8%;
 	display: flex;
 	justify-content: space-between;
 	align-content: space-between;
@@ -544,6 +544,20 @@ border-radius: 25.5px;
 	padding-left: 15%;
 }
 
+.bande_index
+{
+	display: flex;
+	margin-top: 7%;
+	margin-bottom: -2%;
+	
+	
+	justify-content: space-between;
+	align-content: space-between;
+	padding-right: 35%;
+	padding-left: 35%;
+	
+}
+
 .pdroite
 {
 	margin-left: 5%;
@@ -576,7 +590,11 @@ border-radius: 25.5px;
 	margin-top: -0.3%;
 	margin-right: 5%;
 }
-
+.pcentre
+{
+	margin-top: -0.3%;
+	margin-right: 5%;
+}
 p 
 {
 	font-family: 'Montserrat', sans-serif;
